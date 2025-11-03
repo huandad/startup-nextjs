@@ -15,7 +15,7 @@ const Hero = () => {
         />
       </div>
   {/* ✅ 在这里加半透明遮罩 */}
-  <div className="absolute inset-0 bg-black/40"></div>
+  <div className="absolute inset-0 bg-black/25"></div>
       {/* 内容区域 */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-32 sm:py-48 lg:py-56">
         <h1 className="text-4xl sm:text-6xl font-bold mb-6 tracking-tight">
