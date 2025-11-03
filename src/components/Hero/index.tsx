@@ -27,20 +27,7 @@ const Hero = () => {
           HUCYZONY redefines sleepwear — elegant, soft, and effortless.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/products"
-            className="rounded-md bg-indigo-500 px-8 py-3 text-lg font-semibold text-white hover:bg-indigo-400 transition"
-          >
-            Explore Collection
-          </Link>
-          <Link
-            href="/about"
-            className="rounded-md border border-white/40 px-8 py-3 text-lg font-semibold text-white hover:bg-white/10 transition"
-          >
-            About Us
-          </Link>
-        </div>
+
       </div>
     </section>
   );
